@@ -117,7 +117,7 @@ html {
 
 .title-things {
   background-color: var(--type-background);
-  width: 200px;
+  flex-basis: 200px;
   color: var(--color-type);
   font-size: 18px;
   line-height: 1.5;
@@ -136,7 +136,7 @@ html {
 
 .price {
   background-color: var(--type-value-color);
-  width: 55px;
+  flex-basis: 55px;
   color: var(--color-type);
   font-size: 18px;
   line-height: 1.5;
@@ -213,7 +213,6 @@ html {
   color: var(--color-type);
   background-color: var(--transformation-color);
   cursor: pointer;
-  justify-content: flex-start;
   border: 1px solid var(--transformation-color);
   border-radius: 2px;
   height: 50px;
