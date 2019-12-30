@@ -24,8 +24,8 @@ html {
 /*header*/
 
 .fix {
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .flex-container {
@@ -41,13 +41,15 @@ html {
 }
 
 .logo {
-  padding-top: 40px;
   display: flex;
+}
+
+.nav-header {
+  padding-top: 40px;
 }
 
 .list {
   list-style-type: none;
-  padding-top: 40px;
 }
 
 .list:not(:last-child) {
@@ -63,6 +65,7 @@ html {
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
+  display: block;
 }
 
 .list a:hover,
@@ -71,18 +74,6 @@ html {
 }
 
 /*First section*/
-
-.title-first-section {
-  font-size: 48px;
-  font-family: var(--second-font-family);
-  line-height: 1.5;
-  text-transform: uppercase;
-  color: var(--title-color);
-  font-weight: 700;
-  margin: 0;
-  text-align: center;
-  margin-bottom: 130px;
-}
 
 .things-list {
   display: flex;
@@ -132,7 +123,6 @@ html {
   margin: 0;
   padding: 0;
   padding-left: 15px;
-
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -165,16 +155,20 @@ html {
   background-color: var(--type-transformation);
 }
 
+.first {
+  margin-bottom: 105px;
+}
+
 /*Second section*/
 
-.title-second-section {
+.title {
   font-size: 48px;
   font-family: var(--second-font-family);
   line-height: 1.5;
   text-transform: uppercase;
   color: var(--title-color);
   font-weight: 700;
-  margin-top: 105px;
+
   margin-bottom: 120px;
   text-align: center;
 }
@@ -230,8 +224,14 @@ html {
   align-items: center;
 }
 
+.button:hover {
+  background-color: var(--type-transformation);
+}
+
 .container {
   width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .news-images {
