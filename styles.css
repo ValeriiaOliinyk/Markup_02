@@ -168,7 +168,7 @@ html {
   text-transform: uppercase;
   color: var(--title-color);
   font-weight: 700;
-
+  margin: 0;
   margin-bottom: 120px;
   text-align: center;
 }
@@ -239,5 +239,5 @@ html {
 }
 
 .last {
-  margin-bottom: 45px;
+  padding-bottom: 45px;
 }
