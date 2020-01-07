@@ -156,7 +156,7 @@ html {
 }
 
 .first {
-  margin-bottom: 105px;
+  padding-bottom: 105px;
 }
 
 /*Second section*/
@@ -225,7 +225,10 @@ html {
 }
 
 .button:hover {
-  background-color: var(--type-transformation);
+  background-color: var(--color-type);
+  border: 2px solid var(--type-transformation);
+  color: var(--transformation-color);
+  font-weight: 900;
 }
 
 .container {
